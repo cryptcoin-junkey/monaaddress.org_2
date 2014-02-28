@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 		combine: {
 			single: {
 				input: "./src/bitaddress-ui.html",
-				output: "./liteaddress.org.html",
+				output: "./monaaddress.org.html",
 				tokens: [
 					{ token: "//array.map.js", file: "./src/array.map.js" },
 					{ token: "//biginteger.js", file: "./src/biginteger.js" },
@@ -24,7 +24,8 @@ module.exports = function (grunt) {
 					{ token: "//cryptojs.ripemd160.js", file: "./src/cryptojs.ripemd160.js" },
 					{ token: "//crypto-scrypt.js", file: "./src/crypto-scrypt.js" },
 					{ token: "//ellipticcurve.js", file: "./src/ellipticcurve.js" },
-					{ token: "//ninja.key.js", file: "./src/ninja.key.js" },
+                    { token: "//monacoinjs-skin.js", file: "./src/monacoinjs-skin.js" },
+                    { token: "//ninja.key.js", file: "./src/ninja.key.js" },
 					{ token: "//ninja.misc.js", file: "./src/ninja.misc.js" },
 					{ token: "//ninja.onload.js", file: "./src/ninja.onload.js" },
 					{ token: "//ninja.unittests.js", file: "./src/ninja.unittests.js" },
